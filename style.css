@@ -141,7 +141,7 @@ h1 {
   width: 30%;
   height: 50%;
   min-height: 300px;
-  min-width: 250px;
+  min-width: 300px;
 }
 
 #about {
@@ -258,11 +258,12 @@ h1 {
 }
 
 #products-container .go-store {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #products-container .go-store a {
   font-family: "dreamwood demo";
+  font-size: 1.5em;
   text-align: center;
   letter-spacing: 1px;
   text-decoration: none;
@@ -409,7 +410,7 @@ form .textareaField .errorText {
 
 footer {
   position: relative;
-  height: 20vh;
+  /* height: 20vh; */
   width: 100%;
   padding: 1%;
   background-color: #f1bb2c;
@@ -480,6 +481,7 @@ footer #footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 
@@ -557,7 +559,6 @@ footer #footer {
 
   #check:checked~.nav-bar ul li {
     transform: translateY(0);
-    /* transition-delay: calc(0.05s * var(--i)); */
     opacity: 1;
   }
 }
