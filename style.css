@@ -16,7 +16,7 @@
 }
 
 .logo-image {
-  width: 80px;
+  width: 90px;
 }
 
 #header {
@@ -145,13 +145,13 @@ h1 {
 }
 
 #about {
-  margin-top: 1%;
+  margin-top: 2%;
   width: 50%;
 }
 
 #about p {
   margin-inline: 2%;
-  line-height: 110%;
+  line-height: 115%;
   font-family: "dreamwood DEMO";
   font-size: calc(15px + 0.7vw);
   color: white;
@@ -408,13 +408,14 @@ form .textareaField .errorText {
 /* ------------------------------------------- FOOTER ------------------------------------ */
 
 footer {
+  position: relative;
   height: 20vh;
   width: 100%;
   padding: 1%;
-  background-color: #060e24;
+  background-color: #f1bb2c;
 }
 
-footer #back2top {
+.back2top {
   position: relative;
   height: 40px;
   width: 40px;
@@ -425,15 +426,62 @@ footer #back2top {
   border-image: linear-gradient(45deg,
       rgb(127, 44, 13, 1),
       rgb(241, 187, 44, 1)) 1;
-  left: 70%;
+  left: 10vw;
 }
 
-footer #back2top a {
+.back2top a {
   font-size: 40px;
   text-decoration: none;
   font-weight: bolder;
   color: white;
 }
+
+.social-media {
+  top: 1%;
+
+  margin: 3px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footer h2 a{
+  font-family: 'dreamwood demo';
+  color: #060e24;
+  text-decoration: none;
+}
+
+#footer h2 a:hover{
+  color: #3a1f04;
+}
+.homeSM a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  color: #060e24;
+  background: transparent;
+  border: 2px solid #060e24;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 3% 1px 0px 1px;
+}
+
+.homeSM a:hover {
+  color: white;
+  background: #7f2c0d;
+  border: #f1bb2c;
+}
+
+footer #footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 /* ------------------------------------------- @MEDIA ------------------------------------ */
 
